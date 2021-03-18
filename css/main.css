@@ -1,0 +1,10 @@
+.img-nav-brand {
+  height: 80px;
+}
+nav ul li a,
+nav .drop-text {
+  font-size: large !important;
+}
+#divide {
+  border-right: 1px solid rgba(80, 80, 80, 0.2);
+}
