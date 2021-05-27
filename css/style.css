@@ -9796,3 +9796,25 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+  
+  #dropdown, #dropdown2,#dropdown3{
+  /* Hidden by default */
+  list-style: none;
+
+  position: relative;
+
+   }
+   
+#climateMenu:hover +#dropdown {
+display:block;
+}
+#capacityMenu:hover +#dropdown2 {
+  display:block;
+  }
+  #advocacyMenu:hover +#dropdown3 {
+    display:block;
+    }/* Show the direct sub dropdown when hovering the list item */
